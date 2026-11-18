@@ -1,0 +1,6 @@
+{
+  "plugin.name": "IntelliJ IDEA Keymap",
+  "plugin.description": "IntelliJ IDEA default keymaps for the file editor (macOS and Windows)",
+  "keymap.intellijMac": "IntelliJ IDEA (macOS)",
+  "keymap.intellijWindows": "IntelliJ IDEA (Windows)"
+}

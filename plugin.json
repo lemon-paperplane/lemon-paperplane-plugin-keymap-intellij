@@ -1,0 +1,18 @@
+{
+  "id": "keymap-intellij",
+  "name": "%plugin.name%",
+  "version": "0.1.0",
+  "vendor": "Lemon Paperplane",
+  "description": "%plugin.description%",
+  "icon": "icons/keymap-intellij.svg",
+  "category": "tool",
+  "engines": {"paperplane": ">=0.1.0 <0.2.0"},
+  "protocol": 1,
+  "activation": {},
+  "contributes": {
+    "keymaps": [
+      {"id": "intellij-macos", "name": "%keymap.intellijMac%", "platform": "macos", "file": "keymaps/intellij-macos.json"},
+      {"id": "intellij-windows", "name": "%keymap.intellijWindows%", "platform": "windows", "file": "keymaps/intellij-windows.json"}
+    ]
+  }
+}
